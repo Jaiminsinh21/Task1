@@ -1,0 +1,141 @@
+@font-face {
+    src:url(fonts/OneDirection.ttf)format("truetype");
+    font-family: nos;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background-image: url(backgroundimg.jpg);
+    background-size: cover;
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter:blur(1px);
+    color: aliceblue;
+    font-weight: 300;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    margin: 1.2rem;
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+
+    display: flex;
+    justify-content: space-between;
+   
+}
+.nav-list{
+    margin: 2rem;
+    display: flex;
+    margin-right: 5rem;
+    gap: 3.5rem;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+.nav-list button{
+    margin-top: -.5rem;
+    border: 1px solid black;
+    border-radius:5rem ;
+    height: 2.5rem;
+    width: 8rem;
+    background-color: blue;
+    color: aliceblue;
+    font-weight:bold ;
+
+}
+.nav-list ul:hover{
+
+text-decoration: underline;   
+}
+.title{
+    font-size: 22px;
+    color: rgb(208, 208, 208);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box{
+    display: flex;
+
+    margin-top: 10rem;
+    margin-left: 10rem;
+    gap:30rem;
+}
+.left-box{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    gap: 2rem;
+}
+.search-bar{
+    height: 2.8rem;
+    width: 25rem;
+    border: 1px solid white;
+    border-radius: 3rem;
+}
+.search{
+    height: 2.8rem;
+    width: 25rem;
+    border: 1px solid white;
+    border-radius: 3rem;
+    padding-left: 1rem;
+}
+.search-bar i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:21rem ;
+    margin-top: -1.9rem;
+    color: #000000;
+   
+}
+.button{
+    display: flex;
+    gap: 2rem;
+}
+.button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius:5rem ;
+    height: 3rem;
+    width: 9rem;
+    background-color: blue;
+    color: aliceblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold ;
+}
+.button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius:5rem ;
+    height: 3rem;
+    width: 9rem;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    font-weight:bold ;
+}
+
+.right-box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    gap: 2rem;
+}
+.heading{
+    font-size: 40px;
+}
+a{
+    color: azure;
+    text-decoration: none;
+}
